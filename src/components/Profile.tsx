@@ -1,4 +1,4 @@
-import './../App.css';
+import classes from './Profile.module.css';
 import img from '../wallhaven-4l76yq.png';
 import React from 'react';
 
@@ -7,9 +7,9 @@ type Props = {
 };
 export const Profile = (props: Props) => {
     return (
-        <div className="content">
+        <div className={classes.content}>
             <div>
-                <img className="img-main" src={img}/>
+                <img className={classes.fon} src={img}/>
             </div>
             <div>
                 ava + discription
@@ -19,11 +19,11 @@ export const Profile = (props: Props) => {
                 <div>
                     New Posts
                 </div>
-                <div>
-                    <div>
+                <div className='posts'>
+                    <div className={classes.item}>
                         post 1
                     </div>
-                    <div>
+                    <div className={classes.item}>
                         post 2
                     </div>
                 </div>

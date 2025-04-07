@@ -1,0 +1,13 @@
+.content {
+    grid-area: c;
+    background-color: #6e8cac;
+}
+.fon {
+    width: 100%;
+    height: 200px;
+    display: block;
+    /*object-fit: cover;*/
+}
+.item {
+    color: green;
+}
