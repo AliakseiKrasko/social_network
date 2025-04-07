@@ -1,10 +1,33 @@
-.App {
-  text-align: center;
+.app-wrapper {
+    display: grid;
+
+    grid-template-areas:
+    "h h"
+    "n c";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /*grid-gap: 10px;*/
+}
+
+.header {
+    grid-area: h;
+    background-color: lightpink;
+}
+
+.nav {
+    grid-area: n;
+    background-color: #60ff02;
+}
+
+.content {
+    grid-area: c;
+    background-color: aqua;
 }
 
 
 .logo {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
 }
 
