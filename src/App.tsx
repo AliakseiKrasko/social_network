@@ -1,17 +1,14 @@
 import React from 'react';
-import './App.css';
-import {Technologies} from './Technologies';
-import {Header} from './Header';
+import logo from './copy.png';
+import './App.css';  // если стили находятся в файле App.css
 
 
-function App() {
+export function App() {
     return (
         <div>
-            <Header />
-            <Technologies />
+            <header>
+                <img src={logo} alt="Logo" className="logo"/>
+            </header>
         </div>
     );
 }
-
-
-export default App;
