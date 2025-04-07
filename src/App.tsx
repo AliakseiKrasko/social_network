@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './copy.png';
-import './App.css';  // если стили находятся в файле App.css
+import img from './wallhaven-4l76yq.png';
+import './App.css';
 
 
 export function App() {
@@ -10,10 +11,37 @@ export function App() {
                 <img src={logo} alt="Logo" className="logo"/>
             </header>
             <nav className="nav">
-                <div>Profile</div>
-                <div>Messadge</div>
+                <ul>
+                    <li>Profile</li>
+                    <li>Messages</li>
+                    <li>News</li>
+                    <li>Music</li>
+                    <li>Settings</li>
+                </ul>
             </nav>
-            <div className="content">Main content</div>
+            <div className="content">
+                <div>
+                    <img className="foto-main" src={img}/>
+                </div>
+                <div>
+                    ava + discription
+                </div>
+                <div>
+                    My posts
+                    <div>
+                        New Posts
+                    </div>
+                    <div>
+                        <div>
+                            post 1
+                        </div>
+                        <div>
+                            post 2
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     );
 }
