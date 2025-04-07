@@ -8,7 +8,7 @@ export const MyPosts = (props: Props) => {
         <div>
             <div>
                 My posts
-                <div>
+                <div className={classes.posts}>
                     <textarea></textarea>
                     <button>Add post</button>
                 </div>

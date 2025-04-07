@@ -1,4 +1,12 @@
 
 .posts {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
 
+.posts button {
+    padding: 9px;
+    margin-left: 10px;
 }
