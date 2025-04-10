@@ -12,9 +12,9 @@ export const MyPosts = (props: Props) => {
                     <textarea></textarea>
                     <button>Add post</button>
                 </div>
-                <Post/>
-                <Post/>
-                <Post/>
+                <Post message={'Hi, how are you'} />
+                <Post message={'Hello'}/>
+                <Post message={'Hi, my name is Alex'} />
             </div>
         </div>
     );
