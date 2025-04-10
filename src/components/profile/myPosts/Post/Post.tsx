@@ -1,6 +1,5 @@
 import classes from './Post.module.css';
 import React from 'react';
-import heartImage from './../../../../heart.png';
 
 type Props = {
     message: string
