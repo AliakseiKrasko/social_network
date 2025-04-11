@@ -5,13 +5,10 @@
     padding-top: 10px;
 }
 .item {
+    text-decoration: none;
     list-style-type: none;
     color: white;
 }
-.item a {
-    color: inherit; /* Наследует цвет от .item */
-    text-decoration: none; /* Убирает подчёркивание */
-}
-.item.active a {
+.active {
     color: gold; /* Золотой цвет для активной ссылки */
 }

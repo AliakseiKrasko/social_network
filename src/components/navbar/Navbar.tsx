@@ -1,6 +1,6 @@
 import classes from './Navbar.module.css';
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 type Props = {
 
@@ -9,20 +9,50 @@ export const Navbar = (props: Props) => {
     return (
             <nav className={classes.nav}>
                 <>
-                    <div className={classes.item}>
-                        <Link to="/profile">Profile</Link>
+                    <div>
+                        <NavLink
+                            to="/profile"
+                            activeClassName={classes.active}
+                            className={classes.item}
+                        >
+                            Profile
+                        </NavLink>
                     </div>
-                    <div className={`${classes.active} ${classes.active}`}>
-                        <Link to="/dialogs">Messages</Link>
+                    <div>
+                        <NavLink
+                            to="/dialogs"
+                            activeClassName={classes.active}
+                            className={classes.item}
+                        >
+                            Messages
+                        </NavLink>
                     </div>
-                    <div className={classes.item}>
-                        <a>News</a>
+                    <div>
+                        <NavLink
+                            to="/news"
+                            activeClassName={classes.active}
+                            className={classes.item}
+                        >
+                            News
+                        </NavLink>
                     </div>
-                    <div className={classes.item}>
-                        <a>Music</a>
+                    <div>
+                        <NavLink
+                            to="/musik"
+                            activeClassName={classes.active}
+                            className={classes.item}
+                        >
+                            Musik
+                        </NavLink>
                     </div>
-                    <div className={classes.item}>
-                        <a>Settings</a>
+                    <div>
+                        <NavLink
+                            to="/settings"
+                            activeClassName={classes.active}
+                            className={classes.item}
+                        >
+                            Settinds
+                        </NavLink>
                     </div>
 
                 </>
