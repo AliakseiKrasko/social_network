@@ -1,0 +1,89 @@
+[33mcommit 6b40071eb717afab864a35079c7a6c2f559833f3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Thu Apr 10 14:47:25 2025 +0300
+
+    added new component Dialogs
+
+[33mcommit 4aeae7e78e53d15c34867f22275325b3f77ce801[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Thu Apr 10 14:24:39 2025 +0300
+
+    added functionale component Button and Input, added state textValue
+
+[33mcommit 6431017c289455690ada23d65d6151eeb0d1b89d[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Thu Apr 10 14:02:11 2025 +0300
+
+    added likes for posts
+
+[33mcommit caa9a911ca1699c014be49e89daafb2a55eb7882[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Thu Apr 10 13:42:15 2025 +0300
+
+    added props for Post
+
+[33mcommit 944ee19bbb759a77c2daed7702aa1252ea19640e[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Mon Apr 7 18:37:23 2025 +0300
+
+    added Post styled
+
+[33mcommit 2eda0076bae5dcd1ba6fb2fe715b16c819ce3627[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Mon Apr 7 17:39:08 2025 +0300
+
+    added Post
+
+[33mcommit 66f205a4a298bd15a04ed9a50d0f0bfa731ece2f[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Mon Apr 7 17:05:50 2025 +0300
+
+    added module for styles
+
+[33mcommit a0296f98f6436912ee712c3352be303e90020907[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Mon Apr 7 16:16:03 2025 +0300
+
+    create folder components and moved the components over there
+
+[33mcommit 28450f9a8fbd5bda13cc84829971b2b77e01a4a1[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Mon Apr 7 14:48:08 2025 +0300
+
+    added img-main
+
+[33mcommit e952ea18ac0d9a68bdb41e169d0ed0829f0dd019[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Mon Apr 7 14:28:09 2025 +0300
+
+    added styles
+
+[33mcommit a2c1a85b0c89aa5704941cc47cdd98810fb7402a[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Mon Apr 7 14:03:01 2025 +0300
+
+    added icon in header
+
+[33mcommit d3a29e7580d321f48573fb402ebf5bc51012b81b[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Thu Apr 3 13:49:48 2025 +0300
+
+    took out components
+
+[33mcommit 518232641af4144e27e026d1d5123cdb91a6d30f[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Thu Apr 3 13:38:34 2025 +0300
+
+    added components
+
+[33mcommit 73ee8c47d7538639bd715f25a5ad2e9222a7084a[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Tue Feb 25 13:15:40 2025 +0100
+
+    Chenge README.md
+
+[33mcommit 152e6b54cc8cad7c3dd7ae183fb89db57038c37d[m
+Author: AliakseiKrasko <alekskrasko1985@gmail.com>
+Date:   Tue Feb 25 13:07:38 2025 +0100
+
+    first commit

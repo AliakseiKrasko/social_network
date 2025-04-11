@@ -18,7 +18,7 @@ export const MyPosts = (props: Props) => {
                 My posts
                 <div className={classes.posts}>
                     <Input value={textValue} onChange={handleInputChange} as="textarea" />
-                    <Button title={'Add'}/>
+                    <Button as='button' title={'Add'}/>
                 </div>
                 <Post message={'Hi, how are you'} likes={15} />
                 <Post message={'Hello'} likes={40} />

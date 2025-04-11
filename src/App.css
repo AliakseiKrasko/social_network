@@ -11,8 +11,14 @@
     /*grid-gap: 10px;*/
 }
 
+.app-wrapper-content {
+    grid-area: c;
+    background-color: #6e8cac;
 
-
+}
+.active {
+    color: #4dea4d;
+}
 
 
 

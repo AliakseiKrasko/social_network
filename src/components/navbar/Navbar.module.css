@@ -1,11 +1,17 @@
 .nav {
     grid-area: n;
     background-color: #5b5e81;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 .item {
     list-style-type: none;
     color: white;
 }
-.item.active {
-    color: gold;
+.item a {
+    color: inherit; /* Наследует цвет от .item */
+    text-decoration: none; /* Убирает подчёркивание */
+}
+.item.active a {
+    color: gold; /* Золотой цвет для активной ссылки */
 }
