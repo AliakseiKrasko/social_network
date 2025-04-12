@@ -1,6 +1,6 @@
 import s from './Dialogs.module.css'
-import {NavLink} from 'react-router-dom';
 import {DialogItems} from './DialogsItem/DialogItems';
+import {Message} from './Messages/Message';
 
 type Props = {};
 export const Dialogs = (props: Props) => {
@@ -14,11 +14,11 @@ export const Dialogs = (props: Props) => {
                 <DialogItems name='Sascha' id='5' />
             </div>
             <div className={s.messages}>
-                <div className={s.message}>Hi</div>
-                <div className={s.message}>How is your it-kamasutra?</div>
-                <div className={s.message}>Yo</div>
-                <div className={s.message}>Hello</div>
-                <div className={s.message}>Great</div>
+                <Message message={'Hi'} />
+                <Message message={'How is your it-kamasutra'} />
+                <Message message={'Yo'} />
+                <Message message={'Hello'} />
+                <Message message={'Great'} />
             </div>
         </div>
     );
