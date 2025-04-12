@@ -1,12 +1,12 @@
 
 .posts {
-    display: flex;
-    justify-content: start;
-    align-items: center;
+}
+
+.mypostsBlock {
     padding: 10px;
 }
 
-.posts button {
-    padding: 9px;
-    margin-left: 10px;
+.mypostsBlock button {
+    padding: 5px 10px;
+    margin-bottom: 10px;
 }

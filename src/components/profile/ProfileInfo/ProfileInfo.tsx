@@ -11,7 +11,7 @@ export const ProfileInfo = (props: Props) => {
             <div>
                 <img className={classes.fon} src={img}/>
             </div>
-            <div>
+            <div className={classes.discriptionBlock}>
                 ava + discription
             </div>
         </div>

@@ -4,3 +4,6 @@
     display: block;
     /*object-fit: cover;*/
 }
+.discriptionBlock {
+    padding: 10px;
+}
