@@ -1,4 +1,4 @@
-import s from '../Dialogs.module.css';
+import s from './DialogsItem.module.css'
 import {NavLink} from 'react-router-dom';
 
 type Props = {
@@ -7,8 +7,8 @@ type Props = {
 };
 export const DialogItems = ( { name, id } : Props) => {
     let path = "/dialog/" + id
-    return <div className={s.dialog}>
-            <NavLink to={path}>{name}</NavLink>
+    return <div className={s.dialogBox}>
+            <NavLink to={path} className={s.dialog}>{name}</NavLink>
         </div>
 
 };
