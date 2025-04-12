@@ -1,5 +1,12 @@
+.posts {
+    border: 1px solid silver;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
 .item {
-    color: #4dea4d;
+    color: #FFFFFF;
+
 }
 .item img {
     width: 50px;
