@@ -3,11 +3,8 @@ import {DialogItems} from './DialogsItem/DialogItems';
 import {Message} from './Messages/Message';
 import {useState} from 'react';
 
-type Props = {
-    name: string
-    id: number
-};
-export const Dialogs = ({ name, id }: Props) => {
+
+export const Dialogs = () => {
     const [dialogsData, setDialogsData] = useState([
         {id: 1, name: 'Dimych'},
         {id: 2, name: 'Alex'},
@@ -27,18 +24,10 @@ export const Dialogs = ({ name, id }: Props) => {
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
-                {dialogsData.map(d => {
-                    return (
-                        <DialogItems name={d.name} id={d.id} />
-                    )
-                })}
+                {dialogsData.map(d => <DialogItems name={d.name} id={d.id} />)}
             </div>
             <div className={s.messages}>
-                {messagesData.map(m => {
-                    return (
-                        <Message message={m.message} />
-                    )
-                })}
+                {messagesData.map(m => <Message message={m.message} />)}
             </div>
         </div>
     );

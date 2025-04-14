@@ -2,11 +2,12 @@ import classes from './Post.module.css';
 import React from 'react';
 
 type Props = {
+    id: string
     message: string
     likes: number
 };
 
-export const Post = ( {message, likes}: Props) => {
+export const Post = ( {message, likes, id}: Props) => {
     return (
         <div className={classes.posts}>
             <div className={classes.item}>
