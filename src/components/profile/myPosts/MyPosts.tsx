@@ -7,6 +7,11 @@ import {Input} from '../../Input/Input';
 type Props = {};
 export const MyPosts = (props: Props) => {
     const [textValue, setTextValue] = useState<string>("")
+    const [postData, setPostData] = useState([
+        {id: 1, message: 'Hi, how are you', likesCount: 12},
+        {id: 2, message: 'Hello', likesCount: 11},
+        {id: 3, message: 'Hi, my name is Alex', likesCount: 12},
+    ])
 
     const handleInputChange = () => {
 
@@ -24,9 +29,11 @@ export const MyPosts = (props: Props) => {
                         <Button as='button' title={'Add post'}/>
                     </div>
                 </div>
-                <Post message={'Hi, how are you'} likes={15}/>
-                <Post message={'Hello'} likes={40}/>
-                <Post message={'Hi, my name is Alex'} likes={34}/>
+                {postData.map(m => {
+                    return (
+                        <Post message={m.message} likes={m.likesCount} />
+                    )
+                })}
             </div>
         </div>
     );
